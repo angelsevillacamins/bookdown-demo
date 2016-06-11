@@ -22,7 +22,7 @@ For now, you have to install the development versions of **bookdown** from Githu
 devtools::install_github("rstudio/bookdown")
 ```
 
-Windows 7 also need MiKTeX. Besides, there is a known issue with [MiKTeX](http://tex.stackexchange.com/questions/27138/how-can-i-fix-the-error-gui-framework-cannot-be-initialized-with-texniccenter) 
+Windows 7 also needs MiKTeX. Besides, there is a known issue with [MiKTeX](http://tex.stackexchange.com/questions/27138/how-can-i-fix-the-error-gui-framework-cannot-be-initialized-with-texniccenter) 
 
 LaTeX terminates with "GUI framework cannot be initialized" if invoked from TeXnicCenter (1.0 Stable Release Candidate 1). This happens when a missing package needs to be installed and the pop-up window cannot be displayed.
 
