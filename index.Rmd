@@ -22,6 +22,14 @@ For now, you have to install the development versions of **bookdown** from Githu
 devtools::install_github("rstudio/bookdown")
 ```
 
+Windows 7 also need MiKTeX. Besides, there is a known issue with [MiKTeX](http://tex.stackexchange.com/questions/27138/how-can-i-fix-the-error-gui-framework-cannot-be-initialized-with-texniccenter) 
+
+LaTeX terminates with "GUI framework cannot be initialized" if invoked from TeXnicCenter (1.0 Stable Release Candidate 1). This happens when a missing package needs to be installed and the pop-up window cannot be displayed.
+
+Remedy: start MiKTeX Options and choose either Yes or No (but not "Ask me first") for the option "Install missing packages on-the-fly".
+
+Perl also should be installed for epub format.
+
 Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
 
 ```{r include=FALSE}
